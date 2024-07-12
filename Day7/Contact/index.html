@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <heaad>
+    <title>This is a contact form</title> 
+  </heaad>
+
+  <body style="background-color:whitesmoke;justify-content: center;display: flex;align-items: center; margin:50px;padding: 30px;;">
+
+    <!-- container div open -->
+    <div style="color:blue;background-color:silver;height:500px;width:350px; border-radius:10px; display: flex;">
+     <!-- form open -->
+    <form style="font-size:18px; padding:10px;margin:10px;">
+      <h1 style="font-size: 30px; color:blue; text-align: center;">Contact Me</h1>
+
+      <!-- input fields start for contact -->
+        <label>Name:</label>
+        <br/>
+        <input type="text" value=" Enter your name" placeholder="your name" style="border-radius:3px;border: none;height:20px;;width:300px;text-align: center;"/>
+       <br/>
+        <label>Email:</label>
+        <br/>
+        <input type="email" style="border-radius:3px;border: none;height:20px;;width:300px" />
+        <br>
+       <label>Phone Number:</label>
+       <br>
+       <input type="number" style="border-radius:3px;border: none;height:20px;;width:300px"/>
+        
+           <label for="country">Country:</label> 
+           <br/>
+           <!-- select tag start -->
+    <select id="country" name="country" style="border-radius:3px;border: none;height:20px;;width:300px">
+      <option value="Nepal">Nepal</option>
+      <option value="India">India</option>
+      <option value="Japan">Japan</option>
+      <option value="Korea">Korea</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">Others</option>
+    </select>
+    <!-- select tag end -->
+
+    <br/>
+  <label for="Messege"> Your Messege:</label>
+  <br/>
+    <textarea id="Messege" name="Messege" placeholder="Write something..." style="border-radius: 3px;border: none;width:300px;"></textarea>
+    <br/>
+        <label>Age:</label>
+        </br>
+        <label for="under_20_check">yes:</label>
+        <input type="checkbox" id="under_20_check" name="under_20_check" value="yes" />
+        <label for="under_20_check">No:</label>
+        <input type="checkbox" id="under_20_check" name="under_20_check" value="no" />
+        </br>
+        <label>Gender:</label>
+        <br/>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="famale">Famale:</label>
+        <input type="radio" id="famale" name="gender" value="famale" />
+        <label for="Others">Others:</label>
+        <input type="radio" id="Others" name="gender" value="Others" />
+        </br></br>
+
+        <!-- input fields end  for contact-->
+
+
+        <!-- div start for buttons -->
+      
+        <div style="align-items:center;justify-content:space-around;display:flex;">
+       <input type="submit" value="submit" style="border-radius:10px;height:30px;width:150px;font-size: 18px;text-transform:capitalize;color:white;background-color:black;"/>
+       <input type="reset" value="reset" style="border-radius:10px;height:30px;width:150px;font-size: 18px;text-transform: capitalize;color:white;background-color:purple;"/>
+        </div>
+        <!-- div close for buttons -->
+       
+      </form> 
+      <!-- form close -->
+    </div>
+      <!-- container div close -->
+
+  </body>
+</html>
